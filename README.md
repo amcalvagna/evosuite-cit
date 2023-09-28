@@ -1,3 +1,15 @@
+##Evosuite extension integrating pairwise coverage criteria for method parameters values.
+
+#PLEASE refer to Evosuite.org for the original software from which this work has been derived.
+
+From the base installation dir of this code, to create an executable jar, write on terminal:
+
+```> mvn clean; mvn compile; mvn package -DskipTests=true```
+
+To execute the jar on the class of an hypotetic java project named Tutorial, write :
+
+```> java -jar master/target/evosuite-master-1.0.4-SNAPSHOT.jar -class tutorial.Example -projectCP path/to/Tutorial_project/target/classes -criterion=CIT```
+
 # What is EvoSuite?
 
 EvoSuite automatically generates JUnit test suites for Java classes, targeting code coverage criteria such as branch coverage. It uses an evolutionary approach based on a genetic algorithm to derive test suites. To improve readability, the generated unit tests are minimized, and regression assertions that capture the current behavior of the tested classes are added to the tests.
