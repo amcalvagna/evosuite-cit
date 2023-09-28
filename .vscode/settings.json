@@ -1,0 +1,6 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home",
+    
+}
