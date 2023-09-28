@@ -1,6 +1,6 @@
-##Evosuite extension integrating pairwise coverage criteria for method parameters values.
+## Evosuite extension integrating pairwise coverage criteria for method parameters values.
 
-#PLEASE refer to Evosuite.org for the original software from which this work has been derived.
+# PLEASE refer to Evosuite.org for the original software from which this work has been derived.
 
 From the base installation dir of this code, to create an executable jar, write on terminal:
 
